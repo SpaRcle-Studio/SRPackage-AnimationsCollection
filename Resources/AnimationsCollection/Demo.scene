@@ -247,9 +247,9 @@ use tabs: true
 																		18-s:Vec2
 																	17-o:value
 																		18-v:x
-																			19-f:10
+																			19-f:30
 																		18-v:y
-																			19-f:10
+																			19-f:30
 															15-k:i
 																16-o:d
 																	17-v:id
@@ -277,30 +277,69 @@ use tabs: true
 						6-o:ptr
 							7-o:scale
 								8-v:x
-									9-f:10
+									9-f:30
 								8-v:y
 									9-f:1
 								8-v:z
-									9-f:10
+									9-f:30
 		2-k:i
 			3-o:d
 				4-v:type
 					5-s:GameObject
 				4-o:ptr
 					5-v:entityId
-						6-i:3656470818672470739
+						6-i:2540855074152350036
+					5-a:components
+						6-k:i
+							7-o:d
+								8-v:type
+									9-s:FluxComponent
+								8-o:ptr
+									9-v:entityId
+										10-i:3783507782808875405
+									9-o:graph
+										10-v:id
+											11-s:AnimationsCollection/Demo.flux
+									9-a:variables
+										10-k:item
+											11-v:first
+												12-s:Proto
+											11-o:second
+												12-v:typeInfo
+													13-s:Object.EntityRefDynamic
+												12-v:entityId
+													13-i:3656470818672470739
+												12-v:typeName
+													13-s:SceneObject
 					5-v:name
-						6-s:Mannequin
-					5-v:prefab
-						6-s:AnimationsCollection/Mannequin.prefab
+						6-s:Demo
+					5-a:children
+						6-k:i
+							7-o:d
+								8-v:type
+									9-s:GameObject
+								8-o:ptr
+									9-v:entityId
+										10-i:3656470818672470739
+									9-v:name
+										10-s:Mannequin
+									9-v:prefab
+										10-s:AnimationsCollection/Mannequin.prefab
+									9-o:transform
+										10-v:type
+											11-s:Transform3D
+										10-o:ptr
+											11-o:translation
+												12-v:z
+													13-f:-8
+											11-o:scale
+												12-v:x
+													13-f:2
+												12-v:y
+													13-f:2
+												12-v:z
+													13-f:2
 					5-o:transform
 						6-v:type
 							7-s:Transform3D
 						6-o:ptr
-							7-o:scale
-								8-v:x
-									9-f:2
-								8-v:y
-									9-f:2
-								8-v:z
-									9-f:2

@@ -34,9 +34,6 @@ use tabs: true
 						6-o:skeleton
 							7-v:entityId
 								8-i:2589947885265538662
-						6-o:clip
-							7-v:id
-								8-s:AnimationsCollection/Animations/Dancing Twerk.animation
 		2-v:name
 			3-s:Mannequin
 		2-a:children
